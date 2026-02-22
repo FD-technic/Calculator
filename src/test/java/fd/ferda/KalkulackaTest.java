@@ -15,6 +15,8 @@ class KalkulackaTest {
     void odecti() {
         var kalkulacka = new Kalkulacka();
         assertEquals(2, kalkulacka.odecti(3,1));
+        assertEquals(12, kalkulacka.odecti(13,1));
+        assertEquals(2, kalkulacka.odecti(-3,5));
 
     }
     @Test
