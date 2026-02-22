@@ -15,11 +15,18 @@ class KalkulackaTest {
     void odecti() {
         var kalkulacka = new Kalkulacka();
         assertEquals(2, kalkulacka.odecti(3,1));
+        assertEquals(2, kalkulacka.odecti(3,1));
+        assertEquals(2, kalkulacka.odecti(3,1));
+        assertEquals(2, kalkulacka.odecti(3,1));
+        assertEquals(2, kalkulacka.odecti(3,1));
 
     }
     @Test
     void vydel() {
         var kalkulacka = new Kalkulacka();
+        assertEquals(-5, kalkulacka.vydel(15, -3));
+        assertEquals(-5, kalkulacka.vydel(15, -3));
+        assertEquals(-5, kalkulacka.vydel(15, -3));
         assertEquals(-5, kalkulacka.vydel(15, -3));
     }
 
